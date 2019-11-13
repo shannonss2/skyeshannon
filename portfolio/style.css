@@ -1,0 +1,120 @@
+html {
+  background: #e7e1e0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#title {
+  top:0;
+  padding-top: 0;
+  margin-top: 0;
+  background-image: url("collar.jpg");
+  background-size: cover;
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  display: flex;
+  color: white;
+  width: 100vw;
+  height: 111vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name {
+  height:65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#skye {
+  font-size: 8vw;
+}
+
+#space {
+  font-size: 3.5vw;
+}
+
+#shannon {
+    font-size: 8vw;
+}
+
+#body {
+  margin-top: -300px;
+  position: absolute;
+  padding-left:0;
+  height:500vh;
+  width:100vw;
+  background-image: linear-gradient(170deg, rgba(255,255,255,0) 7%, #406C71 7%, #406C71 27%, #FFA07A 27%, #FFA07A 47%, teal 47%, teal 67%, whitesmoke 67%, whitesmoke 87%, #e7e1e0 87%);
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  height:0vh;
+}
+
+#arrow {
+  max-width: 5vw;
+  animation-delay: 1s;
+}
+
+
+/* .footer {
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  margin-right: 0;
+  height: 40px;
+  width: 100vw;
+  padding-right: 0;
+  padding-bottom: 0;
+  background: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black; */
+
+
+}
+
+/* links to resume/mail/linkedin */
+a:link {
+   color: black;
+   text-decoration: none;
+}
+a:visited{
+   color: black;
+   text-decoration: none;
+}
+a:hover {
+   color: darkgray;
+   text-decoration: none;
+}
+a:active {
+   color: black;
+   text-decoration: none;
+}
