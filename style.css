@@ -53,13 +53,16 @@ body {
     font-size: 8vw;
 }
 
-#body {
+.body {
   margin-top: -300px;
-  position: absolute;
+  position: relative;
   padding-left:0;
-  height:500vh;
+  height:130vw;
   width:100vw;
-  background-image: linear-gradient(170deg, rgba(255,255,255,0) 7%, #406C71 7%, #406C71 27%, #FFA07A 27%, #FFA07A 47%, teal 47%, teal 67%, whitesmoke 67%, whitesmoke 87%, #e7e1e0 87%);
+  background-image: linear-gradient(170deg, rgba(255,255,255,0) 15%, rgba(245, 242, 242) 15.05%, rgba(245, 242, 242) 88%, rgba(203, 210, 221, 0.6) 88.05%);
+  display: flex;
+  flex-direction: row;
+  z-index: 0;
 }
 
 .arrow-container {
@@ -68,53 +71,221 @@ body {
   width: 100vw;
   justify-content: center;
   align-items: center;
-}
-
-.spacer {
-  height:0vh;
+  z-index: 999;
 }
 
 #arrow {
   max-width: 5vw;
   animation-delay: 1s;
+    transition: .25s;
 }
 
+#arrow:hover {
+  padding-top:-2vh;
+}
 
-/* .footer {
-  margin-bottom: 0;
-  position: fixed;
-  bottom: 0;
-  margin-right: 0;
-  height: 40px;
-  width: 100vw;
-  padding-right: 0;
-  padding-bottom: 0;
+#left {
+  height: 150vh;
+  margin-left: 12vw;
+  width: 34vw;
+  padding-right: 4vw;
+}
+
+#right {
+  height:150vh;
+  margin-right: 12vw;
+  width: 34vw;
+  padding-left: 4vw;
+}
+
+#spacer {
+  height: 10vw;
+}
+
+#half-spacer {
+  height: 5vw;
+}
+
+#spacer-vh {
+  height: 20vh;
+}
+
+#half-spacer-vh {
+  height: 10vh;
+}
+
+.image-wrap {
+  position: relative;
+}
+
+/* RIGHT */
+#text-right {
+  font-family: 'IBM Plex Sans', monospace;
+  font-style: italic;
+  color: #212020;
+  font-size: 2vw;
+  padding-bottom: 1vh;
+  transition: .25s;
+}
+
+#text-right:hover {
+  padding-left: 2vw;
+}
+
+#feature-right-1 {
+  width: 34vw;
+  position: absolute;
+  z-index: 1;
+  transition: width .4s;
+}
+
+#feature-right-1:hover {
+  width: 36vw;
+}
+
+#circle-right-1 {
+  position:absolute;
+  height: 30vw;
+  width: 30vw;
+  top:0vh;
+  left:12vw;
+  background: rgba(203, 210, 221, 0.4);
+  border-radius: 50%;
+}
+
+#feature-right-2 {
+  width: 34vw;
+  position: absolute;
+  z-index: 1;
+  transition: width .4s;
+}
+
+#feature-right-2:hover {
+  width: 36vw;
+}
+
+#circle-right-2 {
+  position:absolute;
+  z-index: -1;
+  height: 42vw;
+  width: 42vw;
+  top:-17vh;
+  left:-8vw;
   background: white;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-style: normal;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black; */
-
-
+  border-radius: 50%;
 }
 
-/* links to resume/mail/linkedin */
+/* LEFT */
+#text-left-1 {
+  font-family: 'IBM Plex Sans', monospace;
+  font-style: italic;
+  color: #212020;
+  font-size: 2vw;
+  padding-left: 15vw;
+  padding-bottom: 1vh;
+  transition: transform .25s;
+}
+
+#text-left-1:hover {
+  transform: translateX(-2vw);
+}
+
+#feature-left-1 {
+  width: 32vw;
+  position: absolute;
+  z-index: 1;
+  transition: width .4s, transform .4s;
+}
+
+#feature-left-1:hover {
+  width: 34vw;
+  transform: translateX(-2vw);
+}
+
+#circle-left-1 {
+  position:absolute;
+  z-index: -1;
+  height: 35vw;
+  width: 35vw;
+  top:-24vh;
+  left:-8vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+#text-left-2 {
+  font-family: 'IBM Plex Sans', monospace;
+  font-style: italic;
+  color: #212020;
+  font-size: 2vw;
+  padding-left: 17.5vw;
+  padding-bottom: 1vh;
+  transition: transform .25s;
+}
+
+#text-left-2:hover {
+  transform: translateX(-2vw);
+}
+
+#feature-left-2 {
+  width: 32vw;
+  position: absolute;
+  z-index: 1;
+  transition: width .4s, transform .4s;
+}
+
+#feature-left-2:hover {
+  width: 34vw;
+  transform: translateX(-2vw);
+}
+
+#circle-left-2 {
+  position:absolute;
+  z-index: -1;
+  height: 35vw;
+  width: 35vw;
+  top:-15vh;
+  left:10vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(203, 210, 221, 0.4);
+}
+
+#footer {
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+  width: 35px;
+  height: 100vh;
+  flex-direction: column;
+  z-index: 100;
+  right:0;
+}
+
+#links {
+    writing-mode: vertical-rl;
+}
+
 a:link {
-   color: black;
-   text-decoration: none;
+  font-family: 'IBM Plex Sans', monospace;
+  color: rgba(129, 148, 180, 0.87);
+  font-size: 20pt;
+  transition: .25s;
+  text-decoration: none;
 }
 a:visited{
-   color: black;
+   color: rgba(129, 148, 180, 0.87);
    text-decoration: none;
 }
 a:hover {
-   color: darkgray;
+   color: rgba(129, 148, 180, 0.45);
    text-decoration: none;
 }
 a:active {
-   color: black;
+   color: rgba(129, 148, 180, 0.45);
    text-decoration: none;
 }

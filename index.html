@@ -8,47 +8,102 @@
   <title>Skye Shannon</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animate.min.css">
-<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700i|IBM+Plex+Sans:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700i|IBM+Plex+Sans:300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
+<!-- TITLE -->
 <body>
+  <div id="footer">
+      <p> <a href="skye-shannon-resume.pdf" target="_blank" id="links">▶RESUME&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="mailto:shannonss2@vcu.edu" id="links">▶EMAIL&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="https://www.linkedin.com/in/skye-shannon-b57425196" target="_blank" id="links">▶LINKEDIN</a>
+    </p>
+    </div>
+
+
   <div id="title">
     <div id="name">
-    <div id="skye" class="animated slideInLeft" onclick="scrollWin()">skye</div>
-    <div id="space" onclick="scrollWin()">&nbsp;</div>
-  <div id="shannon" class="animated slideInRight" onclick="scrollWin()">shannon</div>
+      <div id="skye" class="animated slideInLeft" onclick="scroll2()">skye</div>
+      <div id="space" onclick="scroll1()">&nbsp;</div>
+      <div id="shannon" class="animated slideInRight" onclick="scroll1()">shannon</div>
     </div>
-  <div class="arrow-container" onclick="scrollWin()">
-      <div class="spacer">  </div>
-      <img src="down-arrow.png" id="arrow" class="animated bounce">
+    <div class="arrow-container">
+      <img onclick="scroll2()" src="down-arrow.png" id="arrow" class="animated bounce">
+    </div>
   </div>
+  <div class="body">
 
-  </div>
+<!-- LEFT -->
+    <div id="left">
+      <div id="spacer-vh"> </div>
+      <div id="spacer-vh"> </div>
+      <div id="spacer-vh"> </div>
+      <div id="half-spacer-vh"> </div>
+      <a href="https://shannonss2.github.io/class-site/">
+        <div id="text-left-1">SURFACE STUDIES</div>
+      </a>
+      <div class="image-wrap">
+        <a href="https://shannonss2.github.io/class-site/"> <img src="surface-studies-feature.jpg" id="feature-left-1"> </a>
+        <div id="circle-left-1"></div>
+      </div>
 
-  <div id="body">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
+      <div id="spacer"> </div>
+      <div id="spacer"> </div>
+      <div id="spacer"> </div>
+      <div id="spacer"> </div>
+      <a href="https://shannonss2.github.io/class-site/">
+        <div id="text-left-2">PHOTOGRAPHY</div>
+      </a>
+      <div class="image-wrap">
+        <a href="https://shannonss2.github.io/class-site/"> <img src="photography-feature1.jpg" id="feature-left-2"> </a>
+        <div id="circle-left-2"></div>
+      </div>
+    </div>
+
+
+<!-- RIGHT -->
+    <div id="right">
+      <div id="spacer-vh"> </div>
+      <div id="spacer-vh"> </div>
+      <a href="https://shannonss2.github.io/class-site/">
+        <div id="text-right">PUBLICATION DESIGN</div>
+      </a>
+      <div class="image-wrap">
+        <a href="https://shannonss2.github.io/class-site/"> <img src="publication-design.jpg" id="feature-right-1"> </a>
+        <div id="circle-right-1"></div>
+      </div>
+
+      <div id="spacer"> </div>
+      <div id="spacer"> </div>
+      <div id="spacer"> </div>
+      <div id="spacer-vh"> </div>
+      <a href="https://shannonss2.github.io/class-site/">
+        <div id="text-right">PRODUCT DESIGN</div>
+      </a>
+      <div class="image-wrap">
+        <a href="https://shannonss2.github.io/class-site/"> <img src="product-design-feature.jpg" id="feature-right-2"> </a>
+        <div id="circle-right-2"></div>
+      </div>
+    </div>
+    </div>
 
 
 
-<!-- <center class="footer">
-  <a href="skye-shannon-resume.pdf" target="_blank">resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  • &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:shannonss2@vcu.edu">email</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  • &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/skye-shannon-b57425196" target="_blank">linkedin</a>
-  </center> -->
 
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
 
+  <script>
+    function scroll1() {
+      window.scrollTo(0, 1e10);
+    }
 
+    function scroll2() {
+      window.scrollTo(0, 830);
+    }
+  </script>
 
 </body>
-
-<script>
-function scrollWin() {
-  window.scrollTo(0, 1e10);
-}
-</script>
 
 </html>
