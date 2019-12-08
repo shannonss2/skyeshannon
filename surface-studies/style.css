@@ -1,0 +1,267 @@
+html {
+  background: rgba(245, 242, 242);
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-right: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.body {
+  background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 61vw, white 61.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+  width: 100vw;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: -1;
+}
+
+#name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 6vh;
+  color: white;
+}
+
+#name-1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 6vh;
+  color: rgb(224, 212, 212);
+}
+
+#space {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 2vh;
+}
+
+#title {
+  height:11vh;
+
+  padding-left: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+#title-1 {
+  height:11vh;
+
+  padding-top: 2px;
+  padding-left: 42px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+#left {
+  height: 39vw;
+  width: 32vw;
+  margin-top: 24vh;
+  margin-left: 6vw;
+  word-wrap: normal;
+}
+
+#right {
+  height: 39vw;
+  width: 45vw;
+  margin-left: 8vw;
+  margin-top: 24vh;
+  margin-right: 9vw;
+}
+
+#sidebar {
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+  width: 65px;
+  height: 165px;
+  flex-direction: column;
+  z-index: 100;
+  right:0;
+  top:1vh;
+}
+
+#links {
+  max-width: 55px;
+  fill: white;
+}
+
+#links:hover {
+  fill: rgba(203, 210, 221);
+}
+
+#links-1 {
+  padding-left: 2.5px;
+  max-width: 50px;
+  fill: white;
+}
+
+#link-1:hover {
+  fill: rgba(203, 210, 221);
+}
+
+#image-name {
+  font-family: 'IBM Plex Sans', monospace;
+  font-style: italic;
+  color: #212020;
+  font-size: 4vh;
+}
+
+#image {
+   max-width: 45vw;
+}
+
+#description {
+  font-family: 'IBM Plex Sans', monospace;
+  /* font-style: italic; */
+  color: #212020;
+  font-size: 2vh;
+  line-height: 3vh;
+}
+
+#spacer {
+  height: 4vw;
+}
+
+#half-spacer {
+  height: 2vw;
+}
+
+#spacer-vh {
+  height: 4vh;
+}
+
+#half-spacer-vh {
+  height: 2vh;
+}
+
+#circle-1 {
+  position:absolute;
+  z-index: -1;
+  height: 35vw;
+  width: 35vw;
+  top:20vh;
+  left:18vw;
+  border-radius: 50%;
+  background: rgba(203, 210, 221, 0.6);
+}
+
+#one {
+  display: flex;
+  flex-direction: row;
+}
+
+#two {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+  #left {
+    height: 39vw;
+    margin-top: 20vh;
+  }
+
+  #right {
+    height: 39vw;
+    margin-top: 20vh;
+  }
+
+  .body {
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 61vw, white 61.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+}
+
+@media screen and (max-width: 900px) {
+  #left {
+    height: 34vw;
+    margin-top: 20vh;
+  }
+
+  #right {
+    height: 34vw;
+    margin-top: 20vh;
+  }
+
+  .body {
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 65vw, white 65.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+}
+
+
+@media screen and (max-width: 750px) {
+  .body {
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 120vw, white 120.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+}
+
+  #left {
+    width: 88vw;
+    height: 4vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    word-wrap: normal;
+  }
+
+  #right {
+    width: 88vw;
+    height: 54vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #image {
+     max-width: 80vw;
+  }
+
+#circle-1 {
+    position:absolute;
+    z-index: -1;
+    height: 70vw;
+    width: 70vw;
+    top:20vh;
+    left:35vw;
+    border-radius: 50%;
+    background: rgba(203, 210, 221, 0.6);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .body {
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 125vw, white 125.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+}
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 135vw, white 135.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+}
+}
