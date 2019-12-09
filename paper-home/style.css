@@ -21,7 +21,6 @@ body {
 .body {
   background: rgb(245, 242, 242);
   width: 100vw;
-  height: 375vh;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -118,9 +117,21 @@ position: absolute;
    padding-top: 2vw;
 }
 
+#image-left-bottom {
+   max-width: 38vw;
+   padding-top: 2vw;
+   padding-bottom: 15vw;
+}
+
 #image-right {
    max-width: 45vw;
    padding-top: 2vw;
+}
+
+#image-right-bottom {
+   max-width: 45vw;
+   padding-top: 2vw;
+   padding-bottom: 15vw;
 }
 
 #description {
