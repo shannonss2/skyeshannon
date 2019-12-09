@@ -19,7 +19,7 @@ body {
 }
 
 .body {
-  background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 61vw, white 61.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+  background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 61vw, whitesmoke 61.05vw, whitesmoke 88%, rgba(203, 210, 221, 0.6) 88.05%);
   width: 100vw;
   height: 250vh;
   display: flex;
@@ -189,7 +189,7 @@ body {
   }
 
   .body {
-    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 61vw, white 61.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 61vw, whitesmoke 61.05vw, whitesmoke 88%, rgba(203, 210, 221, 0.6) 88.05%);
 }
 
 @media screen and (max-width: 900px) {
@@ -204,13 +204,13 @@ body {
   }
 
   .body {
-    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 65vw, white 65.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 65vw, whitesmoke 65.05vw, whitesmoke 88%, rgba(203, 210, 221, 0.6) 88.05%);
 }
 
 
 @media screen and (max-width: 750px) {
   .body {
-    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 120vw, white 120.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 120vw, whitesmoke 120.05vw, whitesmoke 88%, rgba(203, 210, 221, 0.6) 88.05%);
 }
 
   #left {
@@ -256,12 +256,12 @@ body {
 
 @media screen and (max-width: 650px) {
   .body {
-    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 125vw, white 125.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 125vw, whitesmoke 125.05vw, whitesmoke 88%, rgba(203, 210, 221, 0.6) 88.05%);
 }
 }
 
 @media screen and (max-width: 600px) {
   .body {
-    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 135vw, white 135.05vw, white 88%, rgba(203, 210, 221, 0.6) 88.05%);
+    background-image: linear-gradient(175deg, rgba(245, 242, 242) 15vh, rgba(203, 210, 221, 0.6) 15.05vh, rgba(203, 210, 221, 0.6) 135vw, whitesmoke 135.05vw, whitesmoke 88%, rgba(203, 210, 221, 0.6) 88.05%);
 }
 }
