@@ -30,6 +30,7 @@ body {
 #name {
   font-family: 'IBM Plex Mono', monospace;
   font-style: italic;
+  font-weight: 700;
   font-size: 6vh;
   color: rgb(125, 114, 114);
 }
@@ -62,6 +63,7 @@ position: absolute;
 
 #contact {
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
   font-size: 3vh;
   right:4vw;
   color: rgb(125, 114, 114);

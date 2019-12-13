@@ -21,7 +21,6 @@ body {
 .body {
   background: rgb(245, 242, 242);
   width: 100vw;
-  height: 180vh;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -30,6 +29,7 @@ body {
 
 #name {
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
   font-style: italic;
   font-size: 6vh;
   color: rgb(125, 114, 114);
@@ -64,6 +64,7 @@ position: absolute;
 #contact {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 3vh;
+  font-weight: 500;
   right:4vw;
   color: rgb(125, 114, 114);
   text-decoration: none;
@@ -109,18 +110,26 @@ position: absolute;
   font-size: 4vh;
 }
 
-#image {
-   max-width: 45vw;
-}
-
 #image-left {
    max-width: 38vw;
    padding-top: 2vw;
 }
 
+#last-image-left {
+   max-width: 38vw;
+   padding-top: 2vw;
+   padding-bottom: 15vw;
+}
+
 #image-right {
    max-width: 45vw;
    padding-top: 2vw;
+}
+
+#last-image-right {
+   max-width: 45vw;
+   padding-top: 2vw;
+   padding-bottom: 15vw;
 }
 
 #description {
