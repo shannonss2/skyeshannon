@@ -192,6 +192,7 @@ a:hover {
   padding-left: 6vw;
   padding-bottom: 5vw;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #button-prev {
@@ -204,6 +205,25 @@ a:hover {
 }
 
 #button-next {
+  font-family: 'IBM Plex Sans', monospace;
+  font-style: italic;
+    font-weight: 500;
+  text-decoration: none;
+  font-size: 2.5vh;
+  text-align: right;
+  width: 44vw;
+}
+
+#text-prev {
+  font-family: 'IBM Plex Sans', monospace;
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2.5vh;
+  width: 44vw;
+}
+
+#text-next {
   font-family: 'IBM Plex Sans', monospace;
   font-style: italic;
     font-weight: 500;
@@ -308,7 +328,7 @@ a:hover {
   }
 
   #bottom-navigation {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #button-prev {
@@ -384,5 +404,21 @@ a:hover {
         #name {
           font-size: 12.5vw;
         }
+
+#text-next {
+  display: none;
+}
+
+#text-prev {
+  display: none;
+}
+
+#button-prev {
+  font-size: 5vh;
+}
+
+#button-next {
+  font-size: 5vh;
+}
 
 }
