@@ -1,3 +1,9 @@
+
+@viewport {
+  width: device-width;
+  zoom: 1.0 ;
+}
+
 html {
   background: rgb(245, 242, 242);
   margin-left: 0;
@@ -24,6 +30,8 @@ body {
   flex-direction: row;
   position: absolute;
   z-index: -1;
+  padding-top:0vw;
+
 }
 
 #name {
@@ -128,25 +136,26 @@ position: absolute;
   font-size: 3vh;
   padding-bottom: 1.25vh;
   transition: .25s;
+  text-align: left;
 }
 
 #text-right:hover {
   padding-left: 2vw;
 }
 
-#feature-right {
+#image-right {
   width: 35vw;
   position: absolute;
   z-index: 1;
   transition: width .4s;
 }
 
-#last-feature-right:hover {
+#image-right-bottom:hover {
   width: 37vw;
   padding-bottom: 15vw;
 }
 
-#last-feature-right {
+#image-right-bottom{
   width: 35vw;
   position: absolute;
   z-index: 1;
@@ -154,7 +163,7 @@ position: absolute;
   padding-bottom: 15vw;
 }
 
-#feature-right:hover {
+#image-right:hover {
   width: 37vw;
 }
 
@@ -195,19 +204,19 @@ position: absolute;
   transform: translateX(-2vw);
 }
 
-#feature-left {
+#image-left {
   width: 35vw;
   position: absolute;
   z-index: 1;
   transition: width .4s, transform .4s;
 }
 
-#feature-left:hover {
+#image-left:hover {
   width: 37vw;
   transform: translateX(-2vw);
 }
 
-#last-feature-left {
+#image-left-bottom {
   width: 35vw;
   position: absolute;
   z-index: 1;
@@ -215,7 +224,7 @@ position: absolute;
   padding-bottom: 15vw;
 }
 
-#last-feature-left:hover {
+#image-left-bottom:hover {
   width: 37vw;
   transform: translateX(-2vw);
   padding-bottom: 15vw;
@@ -249,4 +258,216 @@ position: absolute;
 
 a {
   text-decoration: none;
+}
+
+#contact-mobile {
+  right:4vw;
+  display: none;
+  flex-direction: row;
+  height: auto;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+#links-mobile {
+    max-width: 55px;
+    fill:rgb(125, 114, 114);
+    z-index: -1;
+    display: none;
+}
+
+#links-mobile:hover {
+    max-width: 55px;
+    fill:rgba(125, 114, 114, 0.3);
+}
+
+@media screen and (max-width: 950px) {
+  .body {
+    padding-top:5vw;
+  }
+
+@media screen and (max-width: 750px) {
+  #contact-mobile {
+    display: flex;
+  }
+
+  #links-mobile {
+    display: block;
+  }
+
+  #contact {
+    display: none;
+  }
+
+  .body {
+    padding-top:10vw;
+  }
+
+@media screen and (max-width: 680px) {
+  #contact-mobile {
+    display: flex;
+  }
+
+  #links-mobile {
+    display: block;
+  }
+
+  #contact {
+    display: none;
+  }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #left {
+    height: auto;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    word-wrap: normal;
+  }
+
+  #right {
+    height: auto;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 0vw;
+    margin-right: 10vw;
+  }
+
+  #image-left {
+     width: 80vw;
+     padding-top: 2vw;
+  }
+
+  #image-left-bottom {
+     width: 80vw;
+     padding-top: 2vw;
+     padding-bottom: 0vw;
+  }
+
+  #image-right {
+     width: 80vw;
+     padding-top: 2vw;
+  }
+
+  #image-right-bottom {
+     width: 80vw;
+     padding-top: 2vw;
+     padding-bottom: 10vw;
+  }
+
+#image-right:hover {
+    width: 80vw;
+  }
+
+#image-right-bottom:hover {
+    width: 80vw;
+  }
+
+  #image-left:hover {
+      width: 80vw;
+    }
+
+  #image-left-bottom:hover {
+      width: 80vw;
+    }
+
+  #spacer-ss {
+    height: 20vw;
+  }
+
+  #spacer-dm {
+    height: 80vw;
+  }
+
+  #spacer-sb {
+    height: 76vw;
+  }
+
+  #spacer-jbi {
+    height: 75vw;
+  }
+
+  #text-right {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 560px) {
+#contact-mobile {
+    flex-direction: column;
+    top: 2vw;
+}
+
+#left {
+      margin-top: 25vh;
+}
+
+.body {
+      padding-top:0;
+}
+
+#spacer-ss {
+  height: 5vw;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  #top {
+  width: 88vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 2vw;
+    }
+
+    #contact-mobile {
+      display: none;
+    }
+
+    #links-mobile {
+      display: flex;
+    }
+
+    #contact {
+      display: flex;
+      right:0vw;
+      top: 18vw;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      font-size: 6vw;
+    }
+
+        #name {
+          font-size: 12.5vw;
+        }
+
+#text-next {
+  display: none;
+}
+
+#text-prev {
+  display: none;
+}
+
+#button-prev {
+  font-size: 5vh;
+}
+
+#button-next {
+  font-size: 5vh;
+}
+
 }
