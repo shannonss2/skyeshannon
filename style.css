@@ -1,9 +1,3 @@
-
-@viewport {
-  width: device-width;
-  zoom: 1.0 ;
-}
-
 html {
   background: rgb(245, 242, 242);
   margin-left: 0;
@@ -283,12 +277,12 @@ a {
     fill:rgba(125, 114, 114, 0.3);
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
   .body {
     padding-top:5vw;
   }
 
-@media screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
   #contact-mobile {
     display: flex;
   }
@@ -305,7 +299,7 @@ a {
     padding-top:10vw;
   }
 
-@media screen and (max-width: 680px) {
+@media only screen and (max-width: 680px) {
   #contact-mobile {
     display: flex;
   }
@@ -399,7 +393,7 @@ a {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media only screen and (max-width: 560px) {
 #contact-mobile {
     flex-direction: column;
     top: 2vw;
@@ -419,7 +413,7 @@ a {
 
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   #top {
   width: 88vw;
   height: 8vh;
