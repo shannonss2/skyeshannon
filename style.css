@@ -352,6 +352,11 @@ a {
     z-index: 10;
   }
 
+#top {
+  z-index: 11;
+
+}
+
   #left {
     height: auto;
     width: 80vw;
@@ -446,21 +451,49 @@ a {
     height: 55vw;
     width: 55vw;
     top:-10vh;
-    left:40vw;
+    left:30vw;
   }
 
   #circle-right-1 {
     height: 55vw;
     width: 55vw;
     top:15vh;
-    left:-12vw;
+    left:-10vw;
   }
 
   #circle-right-2 {
     height: 55vw;
     width: 55vw;
     top:15vh;
-    left:45vw;
+    left:35vw;
+  }
+
+  #text-left:hover {
+    transform: translateX(0vw);
+  }
+
+  #image-left:hover {
+    width: 35vw;
+    transform: translateX(0vw);
+  }
+
+  #image-left-bottom:hover {
+    width: 35vw;
+    transform: translateX(0vw);
+  }
+
+  #text-right:hover {
+    transform: translateX(0vw);
+  }
+
+  #image-right:hover {
+    width: 35vw;
+    transform: translateX(0vw);
+  }
+
+  #image-right-bottom:hover {
+    width: 35vw;
+    transform: translateX(0vw);
   }
   }
 
