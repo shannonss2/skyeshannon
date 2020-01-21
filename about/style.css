@@ -79,6 +79,7 @@ padding-left: 50vw;
 
 #headshot {
   max-width: 50vh;
+  max-height: auto;
   top: 0;
   right: 0;
 }
@@ -136,6 +137,7 @@ padding-left: 50vw;
 @media screen and (max-width: 550px) {
   #headshot {
     max-width: 40vh;
+    max-height: auto;
   }
 
   #circle-1 {
@@ -170,6 +172,6 @@ padding-left: 50vw;
 
 #bio {
   padding-left: 10vw;
-      width: 80vw;
+      width: 70vw;
 }
 }

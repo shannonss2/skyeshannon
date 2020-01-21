@@ -307,7 +307,7 @@ a {
   #circle-left-1 {
     height: 40vw;
     width: 40vw;
-    top:-20vh;
+    top:-15vh;
     left:-3vw;
   }
 
@@ -322,7 +322,7 @@ a {
     height: 45vw;
     width: 45vw;
     top:-15vh;
-    left:12vw;
+    left:0vw;
   }
 
   #circle-right-2 {
