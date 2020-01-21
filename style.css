@@ -102,11 +102,11 @@ position: absolute;
   margin-right: 9vw;
 }
 
-#spacer-ss {
+#spacer-ph {
   height: 25vw;
 }
 
-#spacer-dm {
+#spacer-fa {
   height: 40vw;
 }
 
@@ -120,6 +120,7 @@ position: absolute;
 
 .image-wrap {
   position: relative;
+  height: auto;
 }
 
 /* RIGHT */
@@ -252,6 +253,8 @@ position: absolute;
 
 a {
   text-decoration: none;
+  height: auto;
+  width: auto;
 }
 
 #contact-mobile {
@@ -337,23 +340,27 @@ a {
   #image-left {
      width: 80vw;
      padding-top: 2vw;
+     position: relative;
   }
 
   #image-left-bottom {
      width: 80vw;
      padding-top: 2vw;
      padding-bottom: 0vw;
+     position: relative;
   }
 
   #image-right {
      width: 80vw;
      padding-top: 2vw;
+     position: relative;
   }
 
   #image-right-bottom {
      width: 80vw;
      padding-top: 2vw;
      padding-bottom: 10vw;
+     position: relative;
   }
 
 #image-right:hover {
@@ -372,20 +379,24 @@ a {
       width: 80vw;
     }
 
-  #spacer-ss {
+  #spacer-ph {
     height: 20vw;
+    position: relative;
   }
 
-  #spacer-dm {
-    height: 80vw;
+  #spacer-fa {
+    height: 15vw;
+    position: relative;
   }
 
   #spacer-sb {
-    height: 76vw;
+    height: 15vw;
+    position: relative;
   }
 
   #spacer-jbi {
-    height: 75vw;
+    height: 15vw;
+    position: relative;
   }
 
   #text-right {
@@ -407,7 +418,7 @@ a {
       padding-top:0;
 }
 
-#spacer-ss {
+#spacer-ph {
   height: 5vw;
 }
 
