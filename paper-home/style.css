@@ -256,7 +256,9 @@ a:hover {
     fill:rgba(125, 114, 114, 0.3);
 }
 
-@media screen and (max-width: 750px) {
+/* MOBILE START */
+
+@media screen and (max-width: 830px) {
   #contact-mobile {
     display: flex;
   }
@@ -346,14 +348,14 @@ a:hover {
       }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 615px) {
 #contact-mobile {
     flex-direction: column;
     top: 2vw;
 }
 
 #left {
-      margin-top: 25vh;
+      margin-top: 35vh;
 }
 
 }
@@ -386,7 +388,7 @@ a:hover {
       justify-content: center;
       align-items: center;
       width: 100vw;
-      font-size: 6vw;
+      font-size: 5vw;
     }
 
     /* #contact-mobile {

@@ -1,0 +1,175 @@
+html {
+  background: rgb(245, 242, 242);
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-right: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+a {
+  color: rgba(125, 114, 114);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(125, 114, 114, 0.3);
+  text-decoration: none;
+}
+
+#name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 6vh;
+  color: rgb(125, 114, 114);
+  font-weight: 700;
+}
+
+#space {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 2vh;
+}
+
+#top {
+  z-index: 10;
+width: 86vw;
+height: 8vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 6vw;
+padding-right: 6vw;
+padding-top: 2vw;
+position: absolute;
+  }
+
+#title {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.body {
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 5vh;
+}
+
+#headshot-div {
+padding-left: 50vw;
+}
+
+#headshot {
+  max-width: 50vh;
+  top: 0;
+  right: 0;
+}
+
+#circle-1 {
+  position:absolute;
+  z-index: -1;
+  height: 120vh;
+  width: 120vh;
+  top:25vh;
+  left:8vw;
+  background: rgba(125, 114, 114, 0.1);
+  border-radius: 50%;
+}
+
+#bio {
+  padding-left: 20vw;
+  padding-top: -5vw;
+  width: 40vw;
+    font-family: 'IBM Plex Sans', monospace;
+    color: rgb(125, 114, 114);
+    font-size: 2.5vh;
+    line-height: 3.5vh;
+}
+
+@media screen and (max-width: 765px) {
+  .body {
+    padding-top: 15vh;
+  }
+
+  #headshot-div {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  }
+
+  #circle-1 {
+    height: 90vw;
+    width: 90vw;
+    top:50vh;
+    left:5vw;
+  }
+
+  #bio {
+    padding-left: 20vw;
+    padding-top: 10vw;
+    width: 60vw;
+      font-family: 'IBM Plex Sans', monospace;
+      color: rgb(125, 114, 114);
+      font-size: 2vh;
+      line-height: 3vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #headshot {
+    max-width: 40vh;
+  }
+
+  #circle-1 {
+    height: 70vh;
+    width: 70vh;
+    top:40vh;
+    left:0vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #top {
+  width: 88vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 2vw;
+    }
+
+    #name {
+      font-size: 12.5vw;
+    }
+
+@media screen and (max-width: 400px) {
+  #circle-1 {
+    display: none;
+}
+
+#bio {
+  padding-left: 10vw;
+      width: 80vw;
+}
+}
