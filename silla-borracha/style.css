@@ -134,13 +134,13 @@ position: absolute;
    padding-top: 2vw;
 }
 
-#last-image-left {
+#image-left-bottom {
    max-width: 38vw;
    padding-top: 2vw;
    padding-bottom: 15vw;
 }
 
-#last-image-right {
+#image-right-bottom {
    max-width: 45vw;
    padding-top: 2vw;
    padding-bottom: 15vw;
