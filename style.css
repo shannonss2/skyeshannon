@@ -473,12 +473,12 @@ a {
   }
 
   #image-left:hover {
-    width: 35vw;
+    width: 80vw;
     transform: translateX(0vw);
   }
 
   #image-left-bottom:hover {
-    width: 35vw;
+    width: 80vw;
     transform: translateX(0vw);
   }
 
@@ -487,12 +487,12 @@ a {
   }
 
   #image-right:hover {
-    width: 35vw;
+    width: 80vw;
     transform: translateX(0vw);
   }
 
   #image-right-bottom:hover {
-    width: 35vw;
+    width: 80vw;
     transform: translateX(0vw);
   }
   }
