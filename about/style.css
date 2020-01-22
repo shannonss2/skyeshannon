@@ -79,7 +79,7 @@ padding-left: 50vw;
 
 #headshot {
   max-width: 50vh;
-  max-height: auto;
+  max-height: 50vh;
   top: 0;
   right: 0;
 }
