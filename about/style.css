@@ -137,7 +137,7 @@ padding-left: 50vw;
 @media screen and (max-width: 550px) {
   #headshot {
     max-width: 40vh;
-    max-height: auto;
+    max-height: 40vh;
   }
 
   #circle-1 {
