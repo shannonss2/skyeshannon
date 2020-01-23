@@ -29,9 +29,9 @@ body {
 }
 
 #name {
-  font-family: 'IBM Plex Mono', monospace;
-  font-style: italic;
-  font-size: 6vh;
+  font-family: 'IBM Plex Sans', monospace;
+  letter-spacing: 3pt;
+  font-size: 26pt;
   color: rgb(125, 114, 114);
   font-weight: 700;
 }
@@ -39,7 +39,7 @@ body {
 #space {
   font-family: 'IBM Plex Mono', monospace;
   font-style: italic;
-  font-size: 2vh;
+  font-size: 20pt;
 }
 
 #top {
@@ -126,6 +126,7 @@ position: absolute;
 /* RIGHT */
 #text-right {
   font-family: 'IBM Plex Sans', monospace;
+    font-weight: 300;
   font-style: italic;
   color: rgb(125, 114, 114);
   font-size: 3vh;
@@ -187,6 +188,7 @@ position: absolute;
 /* LEFT */
 #text-left {
   font-family: 'IBM Plex Sans', monospace;
+      font-weight: 300;
   font-style: italic;
   color: rgb(125, 114, 114);
   transition: transform .25s;
@@ -548,10 +550,6 @@ a {
       width: 100vw;
       font-size: 5vw;
     }
-
-        #name {
-          font-size: 12.5vw;
-        }
 
 #text-next {
   display: none;
