@@ -82,6 +82,7 @@ padding-left: 50vw;
   max-height: 50vh;
   top: 0;
   right: 0;
+  position: relative;
 }
 
 #circle-1 {
@@ -101,7 +102,7 @@ padding-left: 50vw;
   height: 50vh;
   width: 50vh;
   top:45vh;
-  left:78vw;
+  left:65vw;
   border-width: 5px;
   border-color: white;
   border-style: solid;
@@ -109,9 +110,10 @@ padding-left: 50vw;
 }
 
 #bio {
-  padding-left: 10vw;
-  padding-top: -5vw;
-  width: 40vw;
+  position: absolute;
+  padding-left: 5vw;
+  padding-top: 22vw;
+  width: 45vw;
     font-family: 'IBM Plex Sans', monospace;
     font-size: 3.5vh;
     color: rgb(125, 114, 114);
