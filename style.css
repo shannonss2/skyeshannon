@@ -197,6 +197,19 @@ position: absolute;
   border-color: white;
 }
 
+#circle-right-4 {
+  position:absolute;
+  z-index: -1;
+  height: 30vw;
+  width: 30vw;
+  top:-22vh;
+  left:-8vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(125, 114, 114, 0.1);
+}
+
 /* LEFT */
 #text-left {
   font-family: 'IBM Plex Sans', monospace;
@@ -275,6 +288,17 @@ position: absolute;
   border-radius: 50%;
 }
 
+#circle-left-4 {
+  position:absolute;
+  z-index: -1;
+  height: 30vw;
+  width: 30vw;
+  top:2vh;
+  left:-6vw;
+  background: white;
+  border-radius: 50%;
+}
+
 a {
   text-decoration: none;
   height: auto;
@@ -330,45 +354,44 @@ a {
   }
 
   #circle-left-1 {
-    height: 40vw;
-    width: 40vw;
+    height: 50vw;
+    width: 50vw;
     top:-15vh;
-    left:-3vw;
+    left:3vw;
   }
 
   #circle-left-2 {
-    height: 40vw;
-    width: 40vw;
-    top:-5vh;
-    left:-15vw;
+    display: none;
   }
 
   #circle-left-3 {
-    height: 40vw;
-    width: 40vw;
-    top:0vh;
-    left:5vw;
+    height: 50vw;
+    width: 50vw;
+    top:-40vh;
+    left:30vw;
   }
 
+#circle-left-4 {
+  height: 50vw;
+  width: 50vw;
+  top:-20vh;
+  left:-10vw;
+}
+
   #circle-right-1 {
-    height: 40vw;
-    width: 40vw;
-    top:-15vh;
-    left:0vw;
+    display: none;
   }
 
   #circle-right-2 {
-    height: 40vw;
-    width: 40vw;
-    top:-7vh;
-    left:-5vw;
+      display: none;
   }
 
   #circle-right-3 {
-    height: 40vw;
-    width: 40vw;
-    top:-10vh;
-    left:5vw;
+    display: none;
+  }
+
+  #circle-right-4 {
+    display: none;
   }
 }
 
@@ -481,45 +504,15 @@ a {
   }
 
   #circle-left-1 {
-    height: 55vw;
-    width: 55vw;
-    top:-12vh;
-    left:-6vw;
-  }
-
-  #circle-left-2 {
-    height: 55vw;
-    width: 55vw;
-    top:-10vh;
-    left:30vw;
+  display: none;
   }
 
   #circle-left-3 {
-    height: 55vw;
-    width: 55vw;
-    top:10vh;
-    left:10vw;
+  display: none;
   }
 
-  #circle-right-1 {
-    height: 55vw;
-    width: 55vw;
-    top:15vh;
-    left:-10vw;
-  }
-
-  #circle-right-2 {
-    height: 55vw;
-    width: 55vw;
-    top:15vh;
-    left:35vw;
-  }
-
-  #circle-right-3 {
-    height: 55vw;
-    width: 55vw;
-    top:5vh;
-    left:-10vw;
+  #circle-left-4 {
+    display: none;
   }
 
   #text-left:hover {
