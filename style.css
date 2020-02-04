@@ -102,19 +102,19 @@ position: absolute;
   margin-right: 9vw;
 }
 
-#spacer-ph {
+#spacer-left-top {
   height: 25vw;
 }
 
-#spacer-fa {
+#spacer-left {
   height: 40vw;
 }
 
-#spacer-sb {
+#spacer-right {
   height: 40vw;
 }
 
-#spacer-jbi {
+#spacer-right-top {
   height: 15vw;
 }
 
@@ -148,7 +148,6 @@ position: absolute;
 
 #image-right-bottom:hover {
   width: 37vw;
-  padding-bottom: 15vw;
 }
 
 #image-right-bottom{
@@ -183,6 +182,19 @@ position: absolute;
   left:-8vw;
   background: white;
   border-radius: 50%;
+}
+
+#circle-right-3 {
+  position:absolute;
+  z-index: -1;
+  height: 30vw;
+  width: 30vw;
+  top:-20vh;
+  left:7vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
 }
 
 /* LEFT */
@@ -224,7 +236,6 @@ position: absolute;
 #image-left-bottom:hover {
   width: 37vw;
   transform: translateX(-2vw);
-  padding-bottom: 15vw;
 }
 
 #circle-left-1 {
@@ -251,6 +262,17 @@ position: absolute;
   border-style: solid;
   border-width: 5px;
   border-color: rgba(125, 114, 114, 0.1);
+}
+
+#circle-left-3 {
+  position:absolute;
+  z-index: -1;
+  height: 30vw;
+  width: 30vw;
+  top:2vh;
+  left:2vw;
+  background: rgba(125, 114, 114, 0.1);
+  border-radius: 50%;
 }
 
 a {
@@ -317,23 +339,38 @@ a {
   #circle-left-2 {
     height: 40vw;
     width: 40vw;
-    top:0vh;
+    top:-5vh;
     left:-15vw;
   }
 
+  #circle-left-3 {
+    height: 40vw;
+    width: 40vw;
+    top:0vh;
+    left:5vw;
+  }
+
   #circle-right-1 {
-    height: 45vw;
-    width: 45vw;
+    height: 40vw;
+    width: 40vw;
     top:-15vh;
     left:0vw;
   }
 
   #circle-right-2 {
-    height: 45vw;
-    width: 45vw;
+    height: 40vw;
+    width: 40vw;
     top:-7vh;
     left:-5vw;
   }
+
+  #circle-right-3 {
+    height: 40vw;
+    width: 40vw;
+    top:-10vh;
+    left:5vw;
+  }
+}
 
 @media only screen and (max-width: 680px) {
   #contact-mobile {
@@ -419,22 +456,22 @@ a {
       width: 80vw;
     }
 
-  #spacer-ph {
+  #spacer-left-top {
     height: 20vw;
     position: relative;
   }
 
-  #spacer-fa {
+  #spacer-left {
     height: 15vw;
     position: relative;
   }
 
-  #spacer-sb {
+  #spacer-right {
     height: 15vw;
     position: relative;
   }
 
-  #spacer-jbi {
+  #spacer-right-top {
     height: 15vw;
     position: relative;
   }
@@ -457,6 +494,13 @@ a {
     left:30vw;
   }
 
+  #circle-left-3 {
+    height: 55vw;
+    width: 55vw;
+    top:10vh;
+    left:10vw;
+  }
+
   #circle-right-1 {
     height: 55vw;
     width: 55vw;
@@ -469,6 +513,13 @@ a {
     width: 55vw;
     top:15vh;
     left:35vw;
+  }
+
+  #circle-right-3 {
+    height: 55vw;
+    width: 55vw;
+    top:5vh;
+    left:-10vw;
   }
 
   #text-left:hover {
@@ -507,7 +558,7 @@ a {
 }
 
 #left {
-      margin-top: 35vh;
+      margin-top: 20vh;
 }
 
 .body {
