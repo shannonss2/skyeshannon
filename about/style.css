@@ -74,11 +74,20 @@ position: absolute;
   height: auto;
 }
 
+#home-arrow {
+  font-family: 'IBM Plex Sans', monospace;
+  letter-spacing: 3pt;
+  font-size: 36pt;
+  color: rgb(125, 114, 114);
+  font-weight: 700;
+}
+
+
 #bio {
   font-weight: 300;
   position: absolute;
   padding-left: 5vw;
-  padding-top: 23vw;
+  padding-top: 10vw;
   width: 45vw;
     font-family: 'IBM Plex Sans', monospace;
     font-size: 3.5vh;
@@ -91,7 +100,7 @@ position: absolute;
   max-width: 50vh;
   max-height: 50vh;
   top: 0;
-  left: 50vw;
+  left: 57vw;
   position: relative;
 }
 

@@ -18,6 +18,10 @@ body {
   padding-right: 0;
 }
 
+b {
+  font-weight: 500;
+}
+
 .body {
   background: rgb(245, 242, 242);
   width: 100vw;
@@ -87,20 +91,23 @@ position: absolute;
 }
 
 #links {
-  color: rgba(125, 114, 114);
+  fill: rgba(125, 114, 114);
   text-decoration: none;
 }
 
 #links:hover {
-  color: rgba(125, 114, 114, 0.3);
+  fill: rgba(125, 114, 114, 0.3);
   text-decoration: none;
 }
 
+#contact-small {
+  display: none;
+}
 
 #left {
   height: auto;
   width: 38vw;
-  margin-top: 24vh;
+  margin-top: 18vh;
   margin-left: 6vw;
   word-wrap: normal;
 }
@@ -113,10 +120,17 @@ position: absolute;
   margin-right: 9vw;
 }
 
+#home-arrow {
+  font-family: 'IBM Plex Sans', monospace;
+  letter-spacing: 3pt;
+  font-size: 36pt;
+  color: rgb(125, 114, 114);
+  font-weight: 700;
+}
+
 #image-name {
   font-family: 'IBM Plex Sans', monospace;
   font-weight: 300;
-  font-style: italic;
   color: rgb(125, 114, 114);
   font-size: 4vh;
 }
@@ -361,7 +375,7 @@ position: absolute;
 }
 
 #left {
-      margin-top: 35vh;
+      margin-top: 20vh;
 }
 
 }
@@ -388,6 +402,10 @@ position: absolute;
     }
 
     #contact {
+      display: none;
+    }
+
+    #contact-small {
       display: flex;
       right:0vw;
       top: 18vw;
@@ -395,6 +413,13 @@ position: absolute;
       align-items: center;
       width: 100vw;
       font-size: 5vw;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 500;
+      color: rgb(125, 114, 114);
+      text-decoration: none;
+      flex-direction: row;
+      height: auto;
+      position: absolute;
     }
 
 #text-next {
