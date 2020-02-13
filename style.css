@@ -606,13 +606,8 @@ a {
       justify-content: center;
       align-items: center;
       width: 100vw;
-      font-size: 5vw;
-      font-family: 'IBM Plex Mono', monospace;
-      font-weight: 500;
       color: rgb(125, 114, 114);
-      text-decoration: none;
       flex-direction: row;
-      height: auto;
       position: absolute;
     }
 

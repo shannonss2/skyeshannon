@@ -132,7 +132,7 @@ position: absolute;
   font-family: 'IBM Plex Sans', monospace;
   font-weight: 300;
   color: rgb(125, 114, 114);
-  font-size: 4vh;
+  font-size: 3.5vh;
 }
 
 #image-left {
@@ -412,13 +412,8 @@ position: absolute;
       justify-content: center;
       align-items: center;
       width: 100vw;
-      font-size: 5vw;
-      font-family: 'IBM Plex Mono', monospace;
-      font-weight: 500;
       color: rgb(125, 114, 114);
-      text-decoration: none;
       flex-direction: row;
-      height: auto;
       position: absolute;
     }
 

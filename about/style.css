@@ -156,10 +156,10 @@ h6 {
   }
 
   #bio {
-    padding-left: 10vw;
+    padding-left: 6vw;
     padding-top: 55vh;
     padding-bottom: 15vw;
-    width: 70vw;
+    width: 75vw;
       font-family: 'IBM Plex Sans', monospace;
       color: rgb(125, 114, 114);
       font-size: 2.5vh;
@@ -177,11 +177,13 @@ h6 {
   }
 
   #circle-1 {
-    height: 70vh;
-    width: 70vh;
-    top:40vh;
-    left:0vw;
+    display: none;
   }
+
+  #circle-2 {
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -198,9 +200,6 @@ h6 {
     }
 
 @media screen and (max-width: 400px) {
-  #circle-1 {
-    display: none;
-}
 
 #bio {
   padding-left: 10vw;
